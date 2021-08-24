@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Market | Profit or Loss?</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <main class="container">
+      <section class="stock-container">
+        <h1 class="stock-heading">Profit or Loss?</h1>
+        <form class="stock-form">
+          <div class="input-container">
+            <input
+              id="purchase-price"
+              required
+              type="number"
+              class="input-box"
+              placeholder="Stock Purchase Price"
+              min="0"
+            />
+          </div>
+          <div class="input-container">
+            <input
+              required
+              id="quantity"
+              type="number"
+              class="input-box"
+              placeholder="Quantity of Stocks"
+              min="0"
+            />
+          </div>
+          <div class="input-container">
+            <input
+              id="selling-price"
+              required
+              type="number"
+              class="input-box"
+              placeholder="Stock Selling Price"
+              min="0"
+            />
+          </div>
+          <div class="button-container">
+            <button class="stock-button">Caculate now</button>
+          </div>
+        </form>
+        <div class="result"></div>
+      </section>
+      <section class="hero-container">
+        <div class="img-container">
+          <img class="hero-img" src="./assets/stock.svg" alt="stock prices" />
+        </div>
+        <h2 class="socials-heading">Join the revolution!</h2>
+        <ul class="list">
+          <li class="list-item">
+            <a href="https://twitter.com/wasifbaliyan" class="list-link"
+              >Twitter</a
+            >
+          </li>
+          <li class="list-item">
+            <a href="https://linkedin.com/in/wasifbaliyan" class="list-link"
+              >LinkedIn</a
+            >
+          </li>
+          <li class="list-item">
+            <a href="https://github.com/wasifbaliyan" class="list-link"
+              >Github</a
+            >
+          </li>
+          <li class="list-item">
+            <a href="https://instagram.com/wasifbaliyan" class="list-link"
+              >Instagram</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

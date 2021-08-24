@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #f7f5fd;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.stock-container {
+  padding: 3rem;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+.stock-heading {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #8055fb;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.input-container {
+  margin: 1.5rem 0;
+}
+.input-box {
+  border-radius: 6px;
+  width: 100%;
+  padding: 10px;
+  font-size: 1.1rem;
+  font-weight: 300;
+  background-color: #edebf4;
+  border: none;
+}
+.button-container {
+  text-align: center;
+
+  margin: 1.5rem 0;
+}
+.stock-button {
+  border-radius: 6px;
+
+  border: none;
+  padding: 10px;
+  width: 80%;
+  background-color: #8055fb;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.hero-container {
+  padding: 3rem 2rem;
+  background-color: #8055fb;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-img {
+  width: 98%;
+}
+
+.socials-heading {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  text-align: center;
+}
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.list-item {
+  margin: 0.3rem 0.5rem;
+}
+
+.list-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 200;
+}
+
+.result {
+  font-size: 1.3rem;
+  color: #414141;
+  text-align: center;
+  font-weight: 500;
+}
